@@ -158,7 +158,7 @@ Observe the DHCP traffic appearing in WireShark:
   Back in Wireshark, filter for RDP traffic only using "tcp.port==3389".
 </p>
 <p>
-  You'll be obseving a non-stop stream of traffic. Do you know why there is constant traffic in our tcp.port==3389?
+  You'll be observing a non-stop stream of traffic. Do you know why there is constant traffic in our tcp.port==3389?
 </p>
 <p>
   The answer is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted:
